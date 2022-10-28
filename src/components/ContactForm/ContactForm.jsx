@@ -5,9 +5,8 @@ import { Component } from 'react';
 export class ContactForm extends Component {
   static propTypes = {
     onSubmit: PropTypes.func,
-    value: PropTypes.string,
-    onChange: PropTypes.func,
   };
+  
   state = {
     name: '',
     number: '',
