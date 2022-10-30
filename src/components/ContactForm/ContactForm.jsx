@@ -4,7 +4,7 @@ import { FormBox } from './ContactForm.styled';
 import { Component } from 'react';
 export class ContactForm extends Component {
   static propTypes = {
-    onSubmit: PropTypes.func,
+    submitProp: PropTypes.func,
   };
   
   state = {
